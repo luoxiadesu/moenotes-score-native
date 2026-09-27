@@ -13,3 +13,5 @@
   optional per-card contributions and source fingerprints.
 - Whole native joint-scheduler acceptance is pending. This development snapshot
   does not promise convergence to exact extrema or 0.1% mean precision in30s.
+- Build compatibility: isolate the parser's private `sig_t` identifier from
+  Darwin system headers and include Boost's conditional MSVC preprocessed headers.

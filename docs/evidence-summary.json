@@ -2493,7 +2493,7 @@
   },
   "source_manifest": {
     ".github/workflows/ci.yml": "45d71ee54480924ae20554fc84d33af9fc332ac20ffc854c8816c9c24b57a0b3",
-    "CMakeLists.txt": "c71a57a4a78ccf6d02df92091955e5144ae1dcda059bafaf8963a00386018227",
+    "CMakeLists.txt": "f28e00337a70f2d9ec374264a54c24bbfa32cba0a56d3a73bd08e50df492d665",
     "include/moenotes_score.h": "6991bccbe9d0cfda78b7bdf3c0a91dbcba9f9e6f5d214877437122e1af302f30",
     "scripts/build_web.sh": "b2fea81095cdc54b7b6362f6b4c37a8610f677ad62fd7bb558883d619be1302e",
     "scripts/check_power.py": "8edb3747ab6d063fc1abc3a1e0d62aef5ad92290580d5a5686a8af0f48f481d8",
@@ -2506,6 +2506,7 @@
     "src/internal.hpp": "720a6cdd2872e7f6ea77b6d28a57bbcb2775a8c2df82131d84b0bbeb2950f709",
     "src/json.cpp": "b4b858437d290c94ba76d5f0489d0832efb0224a7bb2f2adec91a90f23f0cd7e",
     "src/json.hpp": "229eacc8a46e208c1ee93e58ef09489238f3293ad3be63b67140852faeaa6271",
+    "src/parser_build.c": "7617123919b735f9702cca89d2a11b7b5e56630a96b5167985531f2175930e26",
     "src/power.cpp": "0148806fd94317ff9c1012e971b381099ba37ebaca62026ac2e2b654deda7863",
     "src/power_math.hpp": "8fec0aa595c0cc8ad3009f225b579f0474d94a445417e551368892ab271f576a",
     "src/prepared.cpp": "7b452404a3af75c2712a9025604ba08c6e4850fe3943283163902b2f85d7da42",
@@ -2540,5 +2541,5 @@
     "web/worker.mjs": "fe10c02b7aae12a25ef39728e45d25adcb67cec8e21102c4bf6c5556fadf07a1"
   },
   "source_manifest_contract": "Hashes describe the current repository files; retained report hashes identify evidence produced at their recorded revisions. Refreshing this manifest does not rerun validation.",
-  "source_manifest_sha256": "a55565525deba41df12b578dc01e88bd1f3b6404899e321149dfa80196ede8ff"
+  "source_manifest_sha256": "6c8ee2087f0929e845374a4b7e4c325c1e493bc3ca21755ed61dae830d4d9d06"
 }

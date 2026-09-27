@@ -4,6 +4,8 @@
   `482d489ce41442811e7ca1e278c7e0ce9788d67a`. Source copied without Git metadata or
   build artifacts. See its `LICENSE`. Includes yyjson under
   `third_party/LICENSE.yyjson`. yyjson is also used by the scoring JSON adapter.
+  `src/parser_build.c` includes its unchanged source after system headers and
+  scopes a private typedef rename to avoid Darwin's `sig_t` collision.
 - `vendor/boost`: Boost 1.83.0 headers needed by Multiprecision/cpp_rational,
   including conditional compiler/library dependencies. Extracted from Ubuntu's
   `libboost1.83-dev 1.83.0-2.1ubuntu3.2` package. See `LICENSE_1_0.txt` and

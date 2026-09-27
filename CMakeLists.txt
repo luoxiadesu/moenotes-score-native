@@ -13,6 +13,11 @@ option(MNS_BUILD_FUZZER "Build Clang libFuzzer input target" OFF)
 set(MOENOTES_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(MOENOTES_BUILD_CLI OFF CACHE BOOL "" FORCE)
 add_subdirectory(vendor/chart-parser EXCLUDE_FROM_ALL)
+# Compile the unmodified upstream source through our system-header shim. This
+# avoids Darwin's public sig_t typedef colliding with the parser's private one.
+set_property(TARGET moenotes_chart_parser PROPERTY SOURCES
+ "${CMAKE_CURRENT_SOURCE_DIR}/src/parser_build.c"
+ "${CMAKE_CURRENT_SOURCE_DIR}/vendor/chart-parser/third_party/yyjson.c")
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/vendor/boost/boost/multiprecision/cpp_int.hpp")
  set(MNS_BOOST_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/vendor/boost")
 else()

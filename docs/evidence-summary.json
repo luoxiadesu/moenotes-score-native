@@ -132,6 +132,17 @@
     }
   },
   "counts_are_overlapping_not_additive": true,
+  "cross_platform_ci": {
+    "commit": "fcfed4ade092659f2d16cfac812539ba383c6d06",
+    "conclusion": "success",
+    "platforms": [
+      "Linux/GCC",
+      "Windows/MSVC",
+      "macOS/AppleClang",
+      "WebAssembly"
+    ],
+    "run_url": "https://github.com/luoxiadesu/moenotes-score-native/actions/runs/36348268989"
+  },
   "executed_checks": {
     "core_python": {
       "cases": 610,
@@ -166,8 +177,7 @@
   "pending": [
     "Complete native LiveExecutor/SkillExecutor joint scheduling and condition phase observation",
     "Native dynamic Combo lifecycle, probability/Luck and all support interactions",
-    "Real nonempty Memory and active event context evidence",
-    "Windows/MSVC and macOS runtime verification"
+    "Real nonempty Memory and active event context evidence"
   ],
   "privacy": "Aggregate counts, rule type identifiers and hashes only; no game data, recovered native instructions, account data or external paths.",
   "release_status": "development_acceptance_incomplete",
@@ -2497,7 +2507,7 @@
     "include/moenotes_score.h": "6991bccbe9d0cfda78b7bdf3c0a91dbcba9f9e6f5d214877437122e1af302f30",
     "scripts/build_web.sh": "b2fea81095cdc54b7b6362f6b4c37a8610f677ad62fd7bb558883d619be1302e",
     "scripts/check_power.py": "8edb3747ab6d063fc1abc3a1e0d62aef5ad92290580d5a5686a8af0f48f481d8",
-    "scripts/generate_evidence_summary.py": "b700fde3d650df42daee50830f4e4fa8a987cc35809032b73e91f36b53e9ea65",
+    "scripts/generate_evidence_summary.py": "c68317d246d3d8863fd4c756aace3b4244d6073dcead7acaa750784eb6a2c35f",
     "src/analysis.cpp": "e42be7a393e55a2041203a5a84fd1edba6a15b9dc396a9c04eadd740ca5265e2",
     "src/analysis.hpp": "5cdf44ba3daff28346d3e309be3ef77afc7d224ff36e862b3eb6d79034f824a6",
     "src/api.cpp": "e7313094c819c7b4545bb09e1f036aaa041f78e171c05c577fe66c50f29c7508",
@@ -2541,5 +2551,5 @@
     "web/worker.mjs": "fe10c02b7aae12a25ef39728e45d25adcb67cec8e21102c4bf6c5556fadf07a1"
   },
   "source_manifest_contract": "Hashes describe the current repository files; retained report hashes identify evidence produced at their recorded revisions. Refreshing this manifest does not rerun validation.",
-  "source_manifest_sha256": "6c8ee2087f0929e845374a4b7e4c325c1e493bc3ca21755ed61dae830d4d9d06"
+  "source_manifest_sha256": "11c454692d6d85daec6f9a38feefdeaae8c1d4d792ece07568ee321d11221f4b"
 }

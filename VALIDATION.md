@@ -15,8 +15,10 @@ Local GCC/Clang release builds, ASan/UBSan, WebAssembly/Node equivalence and
 headless Chromium Worker execution have passed during development. Browser
 checks include immediate first-use preparation, cancellation, continuation and
 disposal. A relocated installed CMake package was consumed by a C translation
-unit linked with the C++ runtime. Windows/MSVC and macOS are configured in CI;
-their execution is pending until the new repository is run on those platforms.
+unit linked with the C++ runtime. GitHub Actions [run36348268989](https://github.com/luoxiadesu/moenotes-score-native/actions/runs/36348268989)
+passed Linux/GCC, Windows/MSVC, macOS/Apple Clang and WebAssembly at commit
+`fcfed4ade092659f2d16cfac812539ba383c6d06`. Each native platform executed all seven
+CTest suites; WASM matched the native synthetic API result.
 
 The retained research workspace adds the following evidence. Original game
 assets, recovered binaries and native harness results are not bundled here.
@@ -64,9 +66,7 @@ enumerated to check probabilities, extrema, rational expectations and bounds.
    Incremental scoring, compact future-equivalence keys and optimized pruning
    remain separate improvements.
    A realistic Luck tree may stay bounded within practical budgets.
-3. **Native Windows/macOS execution:** CI configuration is supplied; local Linux
-   and browser success does not stand in for MSVC/macOS verification.
-4. **Production event and nonempty Memory evidence:** explicit contexts and
+3. **Production event and nonempty Memory evidence:** explicit contexts and
    synthetic configurations are supported, but retained snapshots do not provide
    corresponding mature-account or active-Challenge observations.
 

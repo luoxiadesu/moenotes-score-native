@@ -197,8 +197,11 @@ def main():
               'source_manifest': source_manifest, 'source_manifest_sha256': digest(canonical(source_manifest)),
               'pending': ['Complete native LiveExecutor/SkillExecutor joint scheduling and condition phase observation',
                           'Native dynamic Combo lifecycle, probability/Luck and all support interactions',
-                          'Real nonempty Memory and active event context evidence',
-                          'Windows/MSVC and macOS runtime verification'],
+                          'Real nonempty Memory and active event context evidence'],
+              'cross_platform_ci': {'commit': 'fcfed4ade092659f2d16cfac812539ba383c6d06',
+                                    'run_url': 'https://github.com/luoxiadesu/moenotes-score-native/actions/runs/36348268989',
+                                    'platforms': ['Linux/GCC', 'Windows/MSVC', 'macOS/AppleClang', 'WebAssembly'],
+                                    'conclusion': 'success'},
               'privacy': 'Aggregate counts, rule type identifiers and hashes only; no game data, recovered native instructions, account data or external paths.'}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + '\n')

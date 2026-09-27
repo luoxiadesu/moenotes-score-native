@@ -1,0 +1,3 @@
+* text=auto
+# Preserve fixed upstream bytes (including upstream whitespace and line endings).
+vendor/** -text -whitespace

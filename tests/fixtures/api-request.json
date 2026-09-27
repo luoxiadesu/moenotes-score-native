@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "calculation": {
+    "music_score_id": 1,
+    "mode": "free"
+  },
+  "deck": {
+    "members": [
+      {
+        "member_card_id": 1,
+        "level": 1,
+        "awake_count": 0,
+        "rank": 1,
+        "live_skill_level": 1,
+        "gekisou_skill_level": 1
+      },
+      {
+        "member_card_id": 2,
+        "level": 1,
+        "awake_count": 0,
+        "rank": 1,
+        "live_skill_level": 1,
+        "gekisou_skill_level": 1
+      },
+      {
+        "member_card_id": 3,
+        "level": 1,
+        "awake_count": 0,
+        "rank": 1,
+        "live_skill_level": 1,
+        "gekisou_skill_level": 1
+      },
+      {
+        "member_card_id": 4,
+        "level": 1,
+        "awake_count": 0,
+        "rank": 1,
+        "live_skill_level": 1,
+        "gekisou_skill_level": 1
+      },
+      {
+        "member_card_id": 5,
+        "level": 1,
+        "awake_count": 0,
+        "rank": 1,
+        "live_skill_level": 1,
+        "gekisou_skill_level": 1
+      }
+    ]
+  },
+  "options": {
+    "contributions": true
+  }
+}

@@ -1,0 +1,12 @@
+[extend]
+useDefault = true
+
+# These generated manifests contain independently recomputed SHA256 digests,
+# including keys containing "api". Match only a whole 64-hex digest value line
+# in these two fixed files; all other content remains scanned.
+[[allowlists]]
+description = "Verified SHA256 source/evidence manifest values"
+condition = "AND"
+paths = ['''(^|/)docs/evidence-summary\.json$''', '''(^|/)vendor/chart-parser-manifest\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"[^"]+": "[0-9a-f]{64}",?\s*$''']

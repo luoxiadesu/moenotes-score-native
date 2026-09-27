@@ -1,0 +1,33 @@
+{
+  "upstream": "482d489ce41442811e7ca1e278c7e0ce9788d67a",
+  "files": {
+    ".github/workflows/ci.yml": "dc5299190f7d2a297c884c81dbeb9c401dd38e174c5a3a3972f8edc16d837f17",
+    ".gitignore": "0db9835c61d9eba2fe218a3301e5b99efc779c47726ecd7e46542cd147fd9820",
+    "CHANGELOG.md": "be3d6957777b9d4b2a96a8fe43ffa91c113884b18816b2aef43ef39ecbac5b15",
+    "CMakeLists.txt": "fa5f9120b484fa6952bd7ad09d9495bf1d63a6fdc4592f7b147e2c79cadb17cd",
+    "LICENSE": "d69ef3d1b9b39922392082d3cc30c617920f7eab53f2e8f84999b88acdd92bad",
+    "README.md": "f0dbab8e7b6e58725c1845034a5929209852b27f332ebc2cada94d7465aece91",
+    "cli/moenotes_chart_parser_cli.c": "f220d22f33bba3a936b354c6ffba7148b6449df3cb220d495f6d14b07244b9b9",
+    "cmake/moenotes-chart-parser-config.cmake.in": "9f3a792ccbad005fe053760dde1d5badef4994576176ef13afcdfa09c4882ca3",
+    "docs/api.md": "4bc2482356c8a612e2e419af1457846374cb5cb9c60d243091617f0b11f8ab9f",
+    "docs/compatibility.md": "8bdbe21c12dc95063b0f265e3c125fee205efcbfe4c532037dcc8e7fbf4c8040",
+    "docs/development.md": "12868961af2559d10d87877277c251d462fca8f9ff82078b7b7df5f78db526c5",
+    "docs/native-differential.md": "b4de56375047367fc05e93282703d9d13ab3ad7a0a17034f0e9c76a3147317e0",
+    "examples/basic.c": "4c7d8ef17d5040c68341971f1d22cf5b14d513ca867edf04374730f6eb2606f2",
+    "include/moenotes_chart_parser.h": "7d8482648b2fd46990330108a78a555a4f56e1541cabd3bad5182972b3799e29",
+    "src/moenotes_chart_parser.c": "e77712732183f8f44c76d0a8728fcdea204a004d95a158141036cb9cd455997e",
+    "tests/check_corpus.py": "2628b26cbaece3e66a3e87d3e5edc20330db017fcdef2dd0df64dda4ddb97300",
+    "tests/check_native.py": "0b610cad8fb18ccd9f3bdb2fdabd81eb35b108fd2d964f3ca65a3ecf307e29e5",
+    "tests/consumer/CMakeLists.txt": "a360e7182ed0382d3fb52dc18a9bc30a734a049e86e4da7e6da9f827245db8ff",
+    "tests/consumer/cpp.cpp": "d693ef10d81c7859d53f897a440ee2ef5e05e6db30f2dfa8d98a858c3b7fc678",
+    "tests/fuzz_parser.c": "101fca3337786009ab6d4dd34d491f1d43c7b62343597715ef37d7132b535cd6",
+    "tests/test_api_contract.c": "2fef4884f5d0e7a1ad05f6388b44ddc43932dcd072d09f7c3d0797769f3e7340",
+    "tests/test_completion.c": "6a32e20f36dcef1cbf759eabadd004f68a2f262ee4c4b3107a4346abc018db0b",
+    "tests/test_conversion.c": "ac1d019ea1ca28da763e21c5cfdcad69032dd0bc973f429ca2165b2584518bcd",
+    "tests/test_features.c": "60cc9738da99d305b4805bb6d410855fcc8f5e9c803dcaf8a680e94aac9eeb36",
+    "tests/test_moenotes_chart_parser.c": "50452684e15f3af84e3f6b9f3789fa1c2adc07d2222c35752c5e065086639845",
+    "third_party/LICENSE.yyjson": "45e384d3d52c73cba3a64d6e6c25d47cd738cd8a55c30629e3201046eda62947",
+    "third_party/yyjson.c": "d2d58ef0a3b2267862dc363832c4f3185fd375aea933d5d3419d1a940d6ece2e",
+    "third_party/yyjson.h": "ef803cda5c06b8962face6dfa39c3284b3bcf3e73f4d7317664690cc779679ca"
+  }
+}

@@ -1,0 +1,18 @@
+# Local build trees
+build/
+build-*/
+cmake-build-*/
+
+# Generated object and test artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE and editor files
+.cache/
+.vscode/
+.idea/
+

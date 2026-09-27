@@ -1,0 +1,11 @@
+build*/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.wasm

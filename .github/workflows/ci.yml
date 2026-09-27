@@ -1,0 +1,56 @@
+name: Native and WebAssembly
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Zlib on Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          vcpkg install zlib:x64-windows-static
+          "CMAKE_TOOLCHAIN_FILE=$env:VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake" >> $env:GITHUB_ENV
+          "VCPKG_TARGET_TRIPLET=x64-windows-static" >> $env:GITHUB_ENV
+      - name: Configure Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: >-
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+          "-DCMAKE_TOOLCHAIN_FILE=$env:VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake"
+          -DVCPKG_TARGET_TRIPLET=x64-windows-static
+          '-DCMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded$<$<CONFIG:Debug>:Debug>'
+      - name: Configure Unix
+        if: runner.os != 'Windows'
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --config Release --parallel 4
+      - name: Tests
+        run: ctest --test-dir build -C Release --output-on-failure
+  wasm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install pinned Emscripten
+        run: |
+          git clone --depth 1 --branch 6.0.10 https://github.com/emscripten-core/emsdk.git /tmp/emsdk
+          test "$(git -C /tmp/emsdk rev-parse HEAD)" = a2b92777574c2feda07994cd4f1079a3dfc151f8
+          /tmp/emsdk/emsdk install 6.0.10
+          /tmp/emsdk/emsdk activate 6.0.10
+      - name: Build and compare
+        shell: bash
+        run: |
+          source /tmp/emsdk/emsdk_env.sh
+          emcc --use-port=zlib -x c -c /dev/null -o /tmp/z.o
+          emcmake cmake -S . -B build-wasm -DCMAKE_BUILD_TYPE=Release -DMNS_BUILD_TESTS=OFF -DMNS_BUILD_CLI=OFF
+          cmake --build build-wasm --parallel 4
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --parallel 4
+          build/test_api > /tmp/native.json
+          node tests/wasm.mjs build-wasm/moenotes-score.mjs /tmp/native.json

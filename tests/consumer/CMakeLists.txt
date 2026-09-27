@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+project(mns_consumer LANGUAGES C CXX)
+find_package(moenotes-score-native 0.1 CONFIG REQUIRED)
+add_executable(consumer main.c)
+target_link_libraries(consumer PRIVATE moenotes::score)
+set_target_properties(consumer PROPERTIES LINKER_LANGUAGE CXX)

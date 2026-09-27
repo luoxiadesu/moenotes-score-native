@@ -1,0 +1,2544 @@
+{
+  "comparison_reports": {
+    "core-comparison": {
+      "failed": 0,
+      "passed": 610,
+      "report_sha256": "eee826dd476ffab53302e1e61a495d21c4d61d4e843f0de7443b92fc55993ef3"
+    },
+    "member-native-comparison": {
+      "failed": 0,
+      "passed": 900,
+      "report_sha256": "a6fac8ddc6bf6bd9cbb5caef3ae34062e74f710b8886b905b8afa202c161f35c"
+    },
+    "runtime-branches-comparison": {
+      "failed": 0,
+      "passed": 610,
+      "report_sha256": "f213f5e163bd0abfb73ab6ecd868a4fba15c4de91c979dd4bc967811744bbdd2"
+    },
+    "runtime-comparison": {
+      "failed": 0,
+      "passed": 610,
+      "report_sha256": "f213f5e163bd0abfb73ab6ecd868a4fba15c4de91c979dd4bc967811744bbdd2"
+    },
+    "runtime-decks-comparison": {
+      "failed": 0,
+      "passed": 200,
+      "report_sha256": "a85e9c72224f418937e836b452a73ee188e6575b8647514855d7389f03ba9f82"
+    },
+    "runtime-interactions-comparison": {
+      "failed": 0,
+      "passed": 194,
+      "report_sha256": "ce90277390fce6c119d261445c9ad9c64c69a4eade029d120b30219b04d27e0e"
+    },
+    "runtime-machine-base-comparison": {
+      "failed": 0,
+      "passed": 610,
+      "report_sha256": "f213f5e163bd0abfb73ab6ecd868a4fba15c4de91c979dd4bc967811744bbdd2"
+    },
+    "runtime-machine-branches-comparison": {
+      "failed": 0,
+      "passed": 610,
+      "report_sha256": "f213f5e163bd0abfb73ab6ecd868a4fba15c4de91c979dd4bc967811744bbdd2"
+    },
+    "runtime-machine-decks-comparison": {
+      "failed": 0,
+      "passed": 200,
+      "report_sha256": "a85e9c72224f418937e836b452a73ee188e6575b8647514855d7389f03ba9f82"
+    },
+    "runtime-machine-interactions-comparison": {
+      "failed": 0,
+      "passed": 194,
+      "report_sha256": "ce90277390fce6c119d261445c9ad9c64c69a4eade029d120b30219b04d27e0e"
+    },
+    "runtime-machine-orders-comparison": {
+      "failed": 0,
+      "passed": 120,
+      "report_sha256": "a570e1a88c1a3ecf4a87a780e7e3dfe64bf9b47952e785d3a9e0739b9b3bd029"
+    },
+    "runtime-machine-random-comparison": {
+      "failed": 0,
+      "passed": 244,
+      "report_sha256": "9002cf0206abb89523b6e9e5264b02b8966f924c25817e540d2af68876863a0a"
+    },
+    "runtime-machine-ranks-comparison": {
+      "failed": 0,
+      "passed": 2,
+      "report_sha256": "50543d5cdf2db88d9d7f493369fc860cf8c9ddcc2cb5cde965543003f62fb03c"
+    },
+    "runtime-machine-song-comparison": {
+      "failed": 0,
+      "passed": 488,
+      "report_sha256": "6ff391f82c8b23762d4fa55cdecad454df13e1bd5d4b57e0e142724e83f9cb50"
+    },
+    "runtime-machine-triple-luck-comparison": {
+      "failed": 0,
+      "passed": 40,
+      "report_sha256": "094744e10a1a55fd4e668d542903a0b57b6103f8e46e3fcee9f3b51ad738b9f7"
+    },
+    "runtime-native-counters-comparison": {
+      "failed": 0,
+      "passed": 270,
+      "report_sha256": "41ff2ffb0f3f0561b185adac09955f7d9b69826c0772a9e7b66d982cc35652fb"
+    },
+    "runtime-orders-comparison": {
+      "failed": 0,
+      "passed": 120,
+      "report_sha256": "a570e1a88c1a3ecf4a87a780e7e3dfe64bf9b47952e785d3a9e0739b9b3bd029"
+    },
+    "runtime-random-comparison": {
+      "failed": 0,
+      "passed": 244,
+      "report_sha256": "9002cf0206abb89523b6e9e5264b02b8966f924c25817e540d2af68876863a0a"
+    },
+    "runtime-random-en-comparison": {
+      "failed": 0,
+      "passed": 244,
+      "report_sha256": "9002cf0206abb89523b6e9e5264b02b8966f924c25817e540d2af68876863a0a"
+    },
+    "runtime-random-hk-comparison": {
+      "failed": 0,
+      "passed": 244,
+      "report_sha256": "9002cf0206abb89523b6e9e5264b02b8966f924c25817e540d2af68876863a0a"
+    },
+    "runtime-ranks-comparison": {
+      "failed": 0,
+      "passed": 2,
+      "report_sha256": "50543d5cdf2db88d9d7f493369fc860cf8c9ddcc2cb5cde965543003f62fb03c"
+    },
+    "runtime-song-comparison": {
+      "failed": 0,
+      "passed": 488,
+      "report_sha256": "6ff391f82c8b23762d4fa55cdecad454df13e1bd5d4b57e0e142724e83f9cb50"
+    },
+    "runtime-song-en-comparison": {
+      "failed": 0,
+      "passed": 488,
+      "report_sha256": "6ff391f82c8b23762d4fa55cdecad454df13e1bd5d4b57e0e142724e83f9cb50"
+    },
+    "runtime-song-hk-comparison": {
+      "failed": 0,
+      "passed": 488,
+      "report_sha256": "6ff391f82c8b23762d4fa55cdecad454df13e1bd5d4b57e0e142724e83f9cb50"
+    },
+    "runtime-triple-luck-comparison": {
+      "failed": 0,
+      "passed": 40,
+      "report_sha256": "094744e10a1a55fd4e668d542903a0b57b6103f8e46e3fcee9f3b51ad738b9f7"
+    },
+    "support-native-comparison": {
+      "failed": 0,
+      "passed": 300,
+      "report_sha256": "b9e99788da20549a5b1d51239469de415c4d98485840853ca5c8ef6d03b407dd"
+    }
+  },
+  "counts_are_overlapping_not_additive": true,
+  "executed_checks": {
+    "core_python": {
+      "cases": 610,
+      "differences": 0,
+      "ranking_conditions": 5,
+      "scope": "Fixed runtime trajectories, per-note and dual-track scores, contributions."
+    },
+    "cumulative_support_native": {
+      "cpp_cases": 300,
+      "differences": 0,
+      "effect_rows": 300,
+      "extra_lifecycle_calls": 3900,
+      "native_applier_calls": 450900
+    },
+    "gekisou_counter_native": {
+      "cpp_cases": 270,
+      "excluded_dynamic_card_levels": 30,
+      "native_replays": 540,
+      "status": "pass"
+    },
+    "ordinary_member_native": {
+      "cases": 900,
+      "differences": 0,
+      "scope": "Component chain; supplied interfaces/conditions as described in rule matrix."
+    },
+    "power_python": {
+      "cases": 3620,
+      "differences": 0,
+      "scope": "All current card ranks/awakening and endpoint growth levels; public master."
+    }
+  },
+  "pending": [
+    "Complete native LiveExecutor/SkillExecutor joint scheduling and condition phase observation",
+    "Native dynamic Combo lifecycle, probability/Luck and all support interactions",
+    "Real nonempty Memory and active event context evidence",
+    "Windows/MSVC and macOS runtime verification"
+  ],
+  "privacy": "Aggregate counts, rule type identifiers and hashes only; no game data, recovered native instructions, account data or external paths.",
+  "release_status": "development_acceptance_incomplete",
+  "retained_report_sha256": {
+    "api-review": "6bfb9b168a6979e045282f33235edc5cb4a719e18e3f58e81fcfb9f2c2f50bd9",
+    "core-differential": "73547fbabeb91876fbab26a2da9f0278a48a449c727eed735f2bed218fee784c",
+    "native-counter-report": "c1d8210139573d02c214ce3b8d9f0b093f19aea9395c0ea43d64b33abbb89d95",
+    "power-differential": "d62467dff0b47395a05c379af052875ff518593e3878d72774b624e09a6c764d",
+    "support-native-differential": "4c26f54001f6a812cd39584a589d111abba41577966ef4fa73a3314d3466257a"
+  },
+  "schema_version": 1,
+  "snapshots": {
+    "en": {
+      "instrument_effect_types": {
+        "1000": 1250
+      },
+      "master_manifest_sha256": "eaa7c7a1405d3ef1bec4c278dd656e97f9fecea753677e0d772b3b1fab77fe6b",
+      "master_table_sha256": {
+        "MasterBandItemSkillEffect": "2b5004079ea07073cc5527d85f64ac1d633a9c2317610b45b9c41a657afef4e3",
+        "MasterGekisouSkillEffect": "1a73f1dbb8a71807e482cec958287c33bf4f45288dd7deb244d9893569846567",
+        "MasterGekisouSupportSkillEffect": "9995bd48ea500a859fd32cdbf079889b103e6d8a786b241352f9bdb857f844d7",
+        "MasterLeaderSkillEffect": "6372e514c18c5ed4382f86724b1170cae9f5c70bf6b6b972cee1e39934d85bd7",
+        "MasterLiveSkillEffect": "0dac303e458539758f02dc01af3a19ae1ae6100e419e3caca1258518b4a8f288",
+        "MasterMemberCard": "ea509ce614b469538c98c8fcf4192cf7059ddc35d67824a66aaaf385f3c1b859",
+        "MasterMemberCardRank": "083666233f3fa3335ed199b3680a03214981e78bcd04aeb1ef5cc30a7367f45e",
+        "MasterMemoryMemberLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusic": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicBonus": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicGroup": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemorySupportLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterSkillCondition": "b15cdbe96041e537d3e933b4e976495cb0aa006ad3c83945d0084805575a0e38",
+        "MasterSkillConditionSet": "3d3b71a7998ddf1e148e218a38f8b8fda26a72a54a316e6a3cc851f68d7a2837",
+        "MasterSkillCumulativeCondition": "6eadf262ad07d8604a84b4e45f8bed273ec39fb3d8d07dbfd063d6d56963cb3f",
+        "MasterSkillTarget": "7179bb704e342f93cece46e9f6151369182272c45aa9e8672666123b9400117b",
+        "MasterSupportCard": "07429e7365c611a16faaceee6d8e24b07ca029c6908941cb715b9b144bec6e09",
+        "MasterSupportCardRank": "7f21a3fd0d06fca5c0cbfb045fbf569e1ebacb622de2c24c229767ece9724b3f",
+        "MasterSupportSkillEffect": "b6535cf197ab117e337f35a5c1e892c8d5bb9029423f9006fe7a179f47346f29"
+      },
+      "member_cards": 60,
+      "member_rank_rows": 5,
+      "memory_table_rows": {
+        "MasterMemoryMemberLevel": 0,
+        "MasterMemoryMusic": 0,
+        "MasterMemoryMusicBonus": 0,
+        "MasterMemoryMusicGroup": 0,
+        "MasterMemorySupportLevel": 0
+      },
+      "rule_matrix": [
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 35,
+              "target_types": {}
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 2004,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 10,
+              "target_types": {
+                "4": 20
+              }
+            }
+          ],
+          "master_rows": 45,
+          "referenced_rows": 45,
+          "subsystem": "ordinary_member",
+          "unreferenced_rows": 0
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 15,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 5,
+              "target_types": {}
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 25,
+                  "role": "trigger",
+                  "type": 7005
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 40,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 28,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 2,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 30,
+              "target_types": {
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 10
+              },
+              "effect_type": 13002,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            }
+          ],
+          "master_rows": 135,
+          "referenced_rows": 110,
+          "subsystem": "gekisou_member",
+          "unreferenced_rows": 25
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 3001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 85,
+              "target_types": {
+                "3": 80
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 155,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 15000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 155,
+              "target_types": {
+                "3": 150
+              }
+            }
+          ],
+          "master_rows": 615,
+          "referenced_rows": 300,
+          "subsystem": "ordinary_support",
+          "unreferenced_rows": 315
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 120,
+                  "role": "trigger",
+                  "type": 7021
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 120,
+              "target_types": {
+                "3": 120
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 80,
+                "7001": 90
+              },
+              "effect_type": 2001,
+              "independent_native_cpp": "passed_applier_chain_300_effect_rows",
+              "native_boundary": "Native applier Begin/Stay/End and controller Add/Get/Disable; phase, cumulative values and accepted band gates supplied.",
+              "referenced_rows": 170,
+              "target_types": {
+                "3": 170,
+                "5": 170
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 24,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 6,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 4004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 30,
+              "target_types": {
+                "3": 30,
+                "4": 30,
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 20,
+              "target_types": {
+                "3": 20,
+                "5": 20
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 48,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90,
+                "5": 60
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10,
+                "4": 15,
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "reset",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 1030
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 40,
+              "target_types": {
+                "3": 40,
+                "4": 240,
+                "5": 80
+              }
+            }
+          ],
+          "master_rows": 1050,
+          "referenced_rows": 460,
+          "subsystem": "gekisou_support",
+          "unreferenced_rows": 590
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 75,
+              "target_types": {
+                "3": 75
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 65,
+              "target_types": {
+                "3": 65
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 70,
+              "target_types": {
+                "3": 70
+              }
+            }
+          ],
+          "master_rows": 1145,
+          "referenced_rows": 270,
+          "subsystem": "leader",
+          "unreferenced_rows": 875
+        }
+      ],
+      "support_cards": 62,
+      "support_rank_rows": 25
+    },
+    "hk-tw-mo": {
+      "instrument_effect_types": {
+        "1000": 1250
+      },
+      "master_manifest_sha256": "eaa7c7a1405d3ef1bec4c278dd656e97f9fecea753677e0d772b3b1fab77fe6b",
+      "master_table_sha256": {
+        "MasterBandItemSkillEffect": "2b5004079ea07073cc5527d85f64ac1d633a9c2317610b45b9c41a657afef4e3",
+        "MasterGekisouSkillEffect": "1a73f1dbb8a71807e482cec958287c33bf4f45288dd7deb244d9893569846567",
+        "MasterGekisouSupportSkillEffect": "9995bd48ea500a859fd32cdbf079889b103e6d8a786b241352f9bdb857f844d7",
+        "MasterLeaderSkillEffect": "6372e514c18c5ed4382f86724b1170cae9f5c70bf6b6b972cee1e39934d85bd7",
+        "MasterLiveSkillEffect": "0dac303e458539758f02dc01af3a19ae1ae6100e419e3caca1258518b4a8f288",
+        "MasterMemberCard": "ea509ce614b469538c98c8fcf4192cf7059ddc35d67824a66aaaf385f3c1b859",
+        "MasterMemberCardRank": "083666233f3fa3335ed199b3680a03214981e78bcd04aeb1ef5cc30a7367f45e",
+        "MasterMemoryMemberLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusic": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicBonus": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicGroup": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemorySupportLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterSkillCondition": "b15cdbe96041e537d3e933b4e976495cb0aa006ad3c83945d0084805575a0e38",
+        "MasterSkillConditionSet": "3d3b71a7998ddf1e148e218a38f8b8fda26a72a54a316e6a3cc851f68d7a2837",
+        "MasterSkillCumulativeCondition": "6eadf262ad07d8604a84b4e45f8bed273ec39fb3d8d07dbfd063d6d56963cb3f",
+        "MasterSkillTarget": "7179bb704e342f93cece46e9f6151369182272c45aa9e8672666123b9400117b",
+        "MasterSupportCard": "07429e7365c611a16faaceee6d8e24b07ca029c6908941cb715b9b144bec6e09",
+        "MasterSupportCardRank": "7f21a3fd0d06fca5c0cbfb045fbf569e1ebacb622de2c24c229767ece9724b3f",
+        "MasterSupportSkillEffect": "b6535cf197ab117e337f35a5c1e892c8d5bb9029423f9006fe7a179f47346f29"
+      },
+      "member_cards": 60,
+      "member_rank_rows": 5,
+      "memory_table_rows": {
+        "MasterMemoryMemberLevel": 0,
+        "MasterMemoryMusic": 0,
+        "MasterMemoryMusicBonus": 0,
+        "MasterMemoryMusicGroup": 0,
+        "MasterMemorySupportLevel": 0
+      },
+      "rule_matrix": [
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 35,
+              "target_types": {}
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 2004,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 10,
+              "target_types": {
+                "4": 20
+              }
+            }
+          ],
+          "master_rows": 45,
+          "referenced_rows": 45,
+          "subsystem": "ordinary_member",
+          "unreferenced_rows": 0
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 15,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 5,
+              "target_types": {}
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 25,
+                  "role": "trigger",
+                  "type": 7005
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 40,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 28,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 2,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 30,
+              "target_types": {
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 10
+              },
+              "effect_type": 13002,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            }
+          ],
+          "master_rows": 135,
+          "referenced_rows": 110,
+          "subsystem": "gekisou_member",
+          "unreferenced_rows": 25
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 3001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 85,
+              "target_types": {
+                "3": 80
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 155,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 15000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 155,
+              "target_types": {
+                "3": 150
+              }
+            }
+          ],
+          "master_rows": 615,
+          "referenced_rows": 300,
+          "subsystem": "ordinary_support",
+          "unreferenced_rows": 315
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 120,
+                  "role": "trigger",
+                  "type": 7021
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 120,
+              "target_types": {
+                "3": 120
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 80,
+                "7001": 90
+              },
+              "effect_type": 2001,
+              "independent_native_cpp": "passed_applier_chain_300_effect_rows",
+              "native_boundary": "Native applier Begin/Stay/End and controller Add/Get/Disable; phase, cumulative values and accepted band gates supplied.",
+              "referenced_rows": 170,
+              "target_types": {
+                "3": 170,
+                "5": 170
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 24,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 6,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 4004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 30,
+              "target_types": {
+                "3": 30,
+                "4": 30,
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 20,
+              "target_types": {
+                "3": 20,
+                "5": 20
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 48,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90,
+                "5": 60
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10,
+                "4": 15,
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "reset",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 1030
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 40,
+              "target_types": {
+                "3": 40,
+                "4": 240,
+                "5": 80
+              }
+            }
+          ],
+          "master_rows": 1050,
+          "referenced_rows": 460,
+          "subsystem": "gekisou_support",
+          "unreferenced_rows": 590
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 75,
+              "target_types": {
+                "3": 75
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 65,
+              "target_types": {
+                "3": 65
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 70,
+              "target_types": {
+                "3": 70
+              }
+            }
+          ],
+          "master_rows": 1145,
+          "referenced_rows": 270,
+          "subsystem": "leader",
+          "unreferenced_rows": 875
+        }
+      ],
+      "support_cards": 62,
+      "support_rank_rows": 25
+    },
+    "kr": {
+      "instrument_effect_types": {
+        "1000": 1250
+      },
+      "master_manifest_sha256": "eaa7c7a1405d3ef1bec4c278dd656e97f9fecea753677e0d772b3b1fab77fe6b",
+      "master_table_sha256": {
+        "MasterBandItemSkillEffect": "2b5004079ea07073cc5527d85f64ac1d633a9c2317610b45b9c41a657afef4e3",
+        "MasterGekisouSkillEffect": "1a73f1dbb8a71807e482cec958287c33bf4f45288dd7deb244d9893569846567",
+        "MasterGekisouSupportSkillEffect": "9995bd48ea500a859fd32cdbf079889b103e6d8a786b241352f9bdb857f844d7",
+        "MasterLeaderSkillEffect": "6372e514c18c5ed4382f86724b1170cae9f5c70bf6b6b972cee1e39934d85bd7",
+        "MasterLiveSkillEffect": "0dac303e458539758f02dc01af3a19ae1ae6100e419e3caca1258518b4a8f288",
+        "MasterMemberCard": "ea509ce614b469538c98c8fcf4192cf7059ddc35d67824a66aaaf385f3c1b859",
+        "MasterMemberCardRank": "083666233f3fa3335ed199b3680a03214981e78bcd04aeb1ef5cc30a7367f45e",
+        "MasterMemoryMemberLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusic": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicBonus": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemoryMusicGroup": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterMemorySupportLevel": "3f371f15998e43483a227c073b1b4caa9ed82718e8dbda37b7ec45449d9e5fe4",
+        "MasterSkillCondition": "b15cdbe96041e537d3e933b4e976495cb0aa006ad3c83945d0084805575a0e38",
+        "MasterSkillConditionSet": "3d3b71a7998ddf1e148e218a38f8b8fda26a72a54a316e6a3cc851f68d7a2837",
+        "MasterSkillCumulativeCondition": "6eadf262ad07d8604a84b4e45f8bed273ec39fb3d8d07dbfd063d6d56963cb3f",
+        "MasterSkillTarget": "7179bb704e342f93cece46e9f6151369182272c45aa9e8672666123b9400117b",
+        "MasterSupportCard": "07429e7365c611a16faaceee6d8e24b07ca029c6908941cb715b9b144bec6e09",
+        "MasterSupportCardRank": "7f21a3fd0d06fca5c0cbfb045fbf569e1ebacb622de2c24c229767ece9724b3f",
+        "MasterSupportSkillEffect": "b6535cf197ab117e337f35a5c1e892c8d5bb9029423f9006fe7a179f47346f29"
+      },
+      "member_cards": 60,
+      "member_rank_rows": 5,
+      "memory_table_rows": {
+        "MasterMemoryMemberLevel": 0,
+        "MasterMemoryMusic": 0,
+        "MasterMemoryMusicBonus": 0,
+        "MasterMemoryMusicGroup": 0,
+        "MasterMemorySupportLevel": 0
+      },
+      "rule_matrix": [
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 35,
+              "target_types": {}
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 2004,
+              "independent_native_cpp": "passed_component_chain_900_cases",
+              "native_boundary": "Native trigger, life predicate, duration updater and score controller; condition inversion and judgement target expansion are fixtures.",
+              "referenced_rows": 10,
+              "target_types": {
+                "4": 20
+              }
+            }
+          ],
+          "master_rows": 45,
+          "referenced_rows": 45,
+          "subsystem": "ordinary_member",
+          "unreferenced_rows": 0
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 15,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 5,
+              "target_types": {}
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 25,
+                  "role": "trigger",
+                  "type": 7005
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 3,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 40,
+              "target_types": {
+                "5": 15
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 2001
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 28,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 2,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13000,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 30,
+              "target_types": {
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 10
+              },
+              "effect_type": 13002,
+              "independent_native_cpp": "passed_static_count_replay_270_cases",
+              "native_boundary": "Native count and cumulative replay; 30 dynamic member/level configurations excluded; trigger/lifecycle phase supplied.",
+              "referenced_rows": 10,
+              "target_types": {
+                "5": 10
+              }
+            }
+          ],
+          "master_rows": 135,
+          "referenced_rows": 110,
+          "subsystem": "gekisou_member",
+          "unreferenced_rows": 25
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 3001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 85,
+              "target_types": {
+                "3": 80
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 75,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 155,
+                  "role": "trigger",
+                  "type": 4010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 15000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 155,
+              "target_types": {
+                "3": 150
+              }
+            }
+          ],
+          "master_rows": 615,
+          "referenced_rows": 300,
+          "subsystem": "ordinary_support",
+          "unreferenced_rows": 315
+        },
+        {
+          "card_configurations": 310,
+          "effect_types": [
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 120,
+                  "role": "trigger",
+                  "type": 7021
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 2000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 120,
+              "target_types": {
+                "3": 120
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 85,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 170,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {
+                "1000": 80,
+                "7001": 90
+              },
+              "effect_type": 2001,
+              "independent_native_cpp": "passed_applier_chain_300_effect_rows",
+              "native_boundary": "Native applier Begin/Stay/End and controller Add/Get/Disable; phase, cumulative values and accepted band gates supplied.",
+              "referenced_rows": 170,
+              "target_types": {
+                "3": 170,
+                "5": 170
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 15,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 24,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 6,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 4004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 30,
+              "target_types": {
+                "3": 30,
+                "4": 30,
+                "5": 30
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "reset",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7000
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 4011
+                },
+                {
+                  "positive": false,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "trigger",
+                  "type": 7010
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 11005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 20,
+              "target_types": {
+                "3": 20,
+                "5": 20
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 30,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 60,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 48,
+                  "role": "trigger",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 12,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12004,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60,
+                "4": 90,
+                "5": 60
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 5,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 10,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 12006,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 10,
+              "target_types": {
+                "3": 10,
+                "4": 15,
+                "5": 10
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "positive": false,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 20,
+                  "role": "condition",
+                  "type": 5000
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "release",
+                  "type": 7013
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "reset",
+                  "type": 7010
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 1030
+                },
+                {
+                  "positive": true,
+                  "references": 40,
+                  "role": "trigger",
+                  "type": 7020
+                }
+              ],
+              "cumulative_types": {},
+              "effect_type": 13005,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 40,
+              "target_types": {
+                "3": 40,
+                "4": 240,
+                "5": 80
+              }
+            }
+          ],
+          "master_rows": 1050,
+          "referenced_rows": 460,
+          "subsystem": "gekisou_support",
+          "unreferenced_rows": 590
+        },
+        {
+          "card_configurations": 300,
+          "effect_types": [
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1000,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 60,
+              "target_types": {
+                "3": 60
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1001,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 75,
+              "target_types": {
+                "3": 75
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1002,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 65,
+              "target_types": {
+                "3": 65
+              }
+            },
+            {
+              "conditions": [],
+              "cumulative_types": {},
+              "effect_type": 1003,
+              "independent_native_cpp": "not_independently_compared_with_cpp",
+              "native_boundary": "Python runtime differential; historical native components do not prove the joint scheduler.",
+              "referenced_rows": 70,
+              "target_types": {
+                "3": 70
+              }
+            }
+          ],
+          "master_rows": 1145,
+          "referenced_rows": 270,
+          "subsystem": "leader",
+          "unreferenced_rows": 875
+        }
+      ],
+      "support_cards": 62,
+      "support_rank_rows": 25
+    }
+  },
+  "source_manifest": {
+    ".github/workflows/ci.yml": "45d71ee54480924ae20554fc84d33af9fc332ac20ffc854c8816c9c24b57a0b3",
+    "CMakeLists.txt": "c71a57a4a78ccf6d02df92091955e5144ae1dcda059bafaf8963a00386018227",
+    "include/moenotes_score.h": "6991bccbe9d0cfda78b7bdf3c0a91dbcba9f9e6f5d214877437122e1af302f30",
+    "scripts/build_web.sh": "b2fea81095cdc54b7b6362f6b4c37a8610f677ad62fd7bb558883d619be1302e",
+    "scripts/check_power.py": "8edb3747ab6d063fc1abc3a1e0d62aef5ad92290580d5a5686a8af0f48f481d8",
+    "scripts/generate_evidence_summary.py": "b700fde3d650df42daee50830f4e4fa8a987cc35809032b73e91f36b53e9ea65",
+    "src/analysis.cpp": "e42be7a393e55a2041203a5a84fd1edba6a15b9dc396a9c04eadd740ca5265e2",
+    "src/analysis.hpp": "5cdf44ba3daff28346d3e309be3ef77afc7d224ff36e862b3eb6d79034f824a6",
+    "src/api.cpp": "e7313094c819c7b4545bb09e1f036aaa041f78e171c05c577fe66c50f29c7508",
+    "src/bounds.cpp": "0ac31503fefd735ada087252e26e1da2cf37937d378c8118da0958b4416f7d30",
+    "src/hash.hpp": "13aa5de42764fca9a43f69c37cbfd6af307f56ed1f353608c78dac71d5cde543",
+    "src/internal.hpp": "720a6cdd2872e7f6ea77b6d28a57bbcb2775a8c2df82131d84b0bbeb2950f709",
+    "src/json.cpp": "b4b858437d290c94ba76d5f0489d0832efb0224a7bb2f2adec91a90f23f0cd7e",
+    "src/json.hpp": "229eacc8a46e208c1ee93e58ef09489238f3293ad3be63b67140852faeaa6271",
+    "src/power.cpp": "0148806fd94317ff9c1012e971b381099ba37ebaca62026ac2e2b654deda7863",
+    "src/power_math.hpp": "8fec0aa595c0cc8ad3009f225b579f0474d94a445417e551368892ab271f576a",
+    "src/prepared.cpp": "7b452404a3af75c2712a9025604ba08c6e4850fe3943283163902b2f85d7da42",
+    "src/runtime.cpp": "c5a135be030d0169857db9434955dd18e028f4b81f2b3db21c93b2b3c4337c9a",
+    "src/runtime_detail.hpp": "c0123dbb374233b3b55c88759e5bde5c3460f14719bb1887c776e95ee718759d",
+    "src/runtime_machine.cpp": "77b670e1212b6b6cbea6e35eb9fe1a12b36a5002744ff9f3cc5bb4024254e728",
+    "src/runtime_machine.hpp": "776758ba3355f322e5483caafe750db370cdee1701b92128b4f00130783b1ee6",
+    "src/scoring.cpp": "ab4604908cd3c7b77055f0d241c720674f85ff6ff2ae97245e3e90a01b871800",
+    "tests/browser.html": "4b96b5bbf73958344365a09ab9f40d03825328b888ab6bbeca5c784dea603b7d",
+    "tests/browser.py": "70b5ff1365e7a11c20d4d950ad52c4926746e4a5388fddfc6b14106c70bbb5e3",
+    "tests/consumer/CMakeLists.txt": "1bb79becab1cd78fad53e64b882b61f2413acfb9529961c5bb04340e189d18ff",
+    "tests/consumer/main.c": "aee65636f1dcfc8045834749e6e47b56d74edfa288d0fd40cb25875d6c7c5b4f",
+    "tests/fixtures/api-chart.json": "829125a55f4379e5dc361452978ef732b6adff679d2b762b4555513301c6917b",
+    "tests/fixtures/api-master.json": "812d7e95600808d16645dac5661a9a93245c8015a6cef9fe2fb12548d2c64f17",
+    "tests/fixtures/api-request.json": "90f3f6407519fc7a364e5390ac630ef7abbe514a19e78b0ec42f1769b08f7df9",
+    "tests/fixtures/power-cases.json": "d98763913c00f122fdf8644cb552d60721bbc3f766e75621dedcb4e403ea3e8a",
+    "tests/fixtures/power.json": "f3144c1258f1b6af13c2aeb1e1e8252c16c4e12dbf4220dab8a13e33523f3db3",
+    "tests/fuzz_inputs.cpp": "64ec791758d094423173d3373d9b18a85a512c0438f815e597d9ec3c0cb8714d",
+    "tests/power_driver.cpp": "3d22c7a2c4a2402ea4e802208de2f5689adfa0734aa257f12d47923e0ed98c95",
+    "tests/runtime_fixture.hpp": "2c3dc4f37123b0714702a683f7410457d7168458c4e735e0ad22cc9925ed008a",
+    "tests/test_analysis.cpp": "b6fd4e3b52acdbf42ddc7c120551ad8208f6fa0f50e23de1d312280c5d3d5e07",
+    "tests/test_api.cpp": "c1f2926f72248c22decfd59b3c032393b974ac99256f39d44ae5f1e8533c89b1",
+    "tests/test_bounds.cpp": "bca5cc190cba3422354d396bcce132147014840121a8c2a91e50b731588a7a1d",
+    "tests/test_core.cpp": "6a3efad530173821c5d42dac88a7a6fc0a4b92456158c0991c4c30cbdc76ef33",
+    "tests/test_power.cpp": "d10d1a0e476dfc80e32c4052a70ee97b1cbaa28ec7630788905042a2ee40b292",
+    "tests/test_runtime.cpp": "5d29f4dcce96cc5a41fa9ea523b7354a505cd7adf2497a1f28660e3b80eefa51",
+    "tests/test_runtime_machine.cpp": "6c305aff4dea5aa2cc8e3fd836b28ba420df682a4580351fa98ec2b5956afffa",
+    "tests/wasm.mjs": "4725a5a5541fc9abfd09e0f76d72d4acc961c3533a32e71820055242740c6517",
+    "web/index.ts": "3087529b7e10a495d0ce9ba502e57c1bbe7f0ebcfe8cf81d93a7601251c9c0fd",
+    "web/package-lock.json": "4ba9f00b3d92e10c1261fbca5c7a234d7686686b458d809a33ba1b4b269bd2d0",
+    "web/package.json": "26db7fbe0cd26050bd81fcc024e0b7edcd294816357e2fadf82108bfb1c64eff",
+    "web/worker.mjs": "fe10c02b7aae12a25ef39728e45d25adcb67cec8e21102c4bf6c5556fadf07a1"
+  },
+  "source_manifest_contract": "Hashes describe the current repository files; retained report hashes identify evidence produced at their recorded revisions. Refreshing this manifest does not rerun validation.",
+  "source_manifest_sha256": "a55565525deba41df12b578dc01e88bd1f3b6404899e321149dfa80196ede8ff"
+}
